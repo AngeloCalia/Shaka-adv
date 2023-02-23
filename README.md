@@ -6,8 +6,6 @@ Steps from zero:
 4. Write `docker`  if you see the list of commands, the installations have been a good end
 5. Open Docker Desktop and Windows PowerShell
 6. Write in PowerShell `docker pull angelocal/progetto`
-7. Go in Docker Desktop images and check the new images
-8. Disable all AdBlock from your browser or antivirus
-8. Run the image setting in Optional setting a specific port (i.e. 32777 or others)
-9. Go in Containers and start a container
-10. Click the link of the port
+7. Disable all AdBlock from your browser or antivirus
+8. Write in PowerShell `docker run -p 8080:80 angelocal/progetto` 
+9. Open browser at localhost:8080
